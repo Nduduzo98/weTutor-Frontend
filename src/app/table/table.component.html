@@ -1,0 +1,20 @@
+
+<table class="table table-warning table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <th scope="row">1</th>
+        <td>{{user.studentNo}}</td>
+        <td>{{user.surname}}</td>
+        <td>{{user.fname}}</td>
+      </tr>
+     
+    </tbody>
+  </table>
